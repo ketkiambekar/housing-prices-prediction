@@ -70,7 +70,7 @@ Root Mean Squared Error (RMSE) 0.3424938110710486 <br>
 ![Predictions](/images/predictions.png)
 
 
-This scatter plot by far gives the best visual idea of the performance of the model. Ideally we should've obtained a straight line, as that would imply that predicted prices are equal to actual prices. 
+This scatter plot by far gives the best visual idea of the performance of the model. Ideally we should've obtained a straight (x=y) line, as that would imply that predicted prices are equal to actual prices. 
 
 
 
