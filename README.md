@@ -76,7 +76,13 @@ This scatter plot by far gives the best visual idea of the performance of the mo
 
 
 
+#### Instructions to run:
 
+##### Softare Prerequisites:
+None
+
+1) Open the "King_County_Housing_Prices.ipynb" notebook in google colab by clicking the 'Open in Colab' badge. 
+2) Run all the cells by clicking "Runtime>>Run all" from the file menu.
 
 
 
