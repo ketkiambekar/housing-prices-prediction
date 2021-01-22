@@ -72,6 +72,11 @@ Root Mean Squared Error (RMSE) 0.3424938110710486 <br>
 
 This scatter plot by far gives the best visual idea of the performance of the model. Ideally, we should've obtained a straight (x=y) line, as that would mean the predicted prices are equal to actual prices. 
 
+### API Screenshots:
+
+![Screenshot1](/images/API_Screenshot1.png)
+![Screenshot2](/images/API_Screenshot2.png)
+![Screenshot3](/images/API_Screenshot3.png)
 
 
 
