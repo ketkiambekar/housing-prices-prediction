@@ -1,0 +1,49 @@
+{% extends "layout.html"%}
+
+{% block body %}
+
+<h2>Real Estate Pricing Predictor for King County, WA, USA.</h2>
+
+<div>
+  <form action="/result" method=POST>
+    <label for="bedrooms">Number of Bedrooms </label>
+    <input type="text" id="bedrooms" name="bedrooms" placeholder="No. of Bedrooms..">
+
+    <label for="bathrooms">Number of Bathrooms</label>
+    <input type="text" id="bathrooms" name="bathrooms" placeholder="No. of Bathrooms..">
+
+    <label for="sqft_living">Square footage of the apartments interior living space</label>
+     <input type="text" id="sqft_living" name="sqft_living" placeholder="Square Footage..">
+
+    <label for="grade">Enter Grade: An index from 1 to 13, where 1-3 falls short of building construction and design, 7 has an average level of construction and design, and 11-13 have a high quality level of construction and design.</label>
+        <select id="grade" name="grade">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+    </select>
+    <label for="view">Select View: An index from 0 to 4 of how good the view of the property was</label>
+   
+    <select id="view" name="view">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+{% endblock %} 
