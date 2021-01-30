@@ -83,10 +83,11 @@ This scatter plot by far gives the best visual idea of the performance of the mo
 
 #### Instructions to run:
 
-##### Softare Prerequisites: None
+##### Softare Prerequisites: Python, Flask
 
-1) Open the "King_County_Housing_Prices.ipynb" notebook in google colab by clicking the 'Open in Colab' badge. 
-2) Run all the cells by clicking "Runtime>>Run all" from the file menu.
+1) Clone this repo on to your computer.
+2) Navigate to the file "main.py" and run it with the command ```$python main.py```
+3) Open in the browser the link printed in the output of main.py
 
 
 
