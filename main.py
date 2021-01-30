@@ -27,4 +27,5 @@ def predict():
         message = e
         return render_template('/failure.html', message=e )
  
-app.run()
+if __name__ == '__main__':
+    app.run()
