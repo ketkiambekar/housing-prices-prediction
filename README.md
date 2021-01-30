@@ -91,6 +91,5 @@ This scatter plot by far gives the best visual idea of the performance of the mo
 2) Navigate to the file "main.py" and run it with the command ```$python main.py```
 3) Open in the browser the link printed in the output of main.py
 
-Coming soon: Live version of main.py
 
 
