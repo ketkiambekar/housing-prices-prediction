@@ -5,6 +5,8 @@ Predicting Housing Prices of King County, USA
 In this project, we use Linear Regression to predict housing prices.
 We use [this](https://www.kaggle.com/harlfoxem/housesalesprediction) dataset from kaggle. The dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. It's a good dataset for implementing regression models.
 
+### Click [here](https://housingprices.ketkiambekar.com/) for Live Demo
+
 ### Columns in the dataset:  <BR>
 id - Unique ID for each home sold <BR>
 date - Date of the home sale <BR>
