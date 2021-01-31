@@ -8,6 +8,7 @@ We use [this](https://www.kaggle.com/harlfoxem/housesalesprediction) dataset fro
 ### Click [here](https://housingprices.ketkiambekar.com/) for Live Demo
 - [This](https://www.kaggle.com/harlfoxem/housesalesprediction) dataset was used for training the model. 
 - Hosted on: Google Cloud Platform
+- The Live demo is unfortunately not responsive, and I am working on making it so.
 
 ### Columns in the dataset:  <BR>
 id - Unique ID for each home sold <BR>
