@@ -3,9 +3,9 @@ import joblib
 import os
 
 app = Flask(__name__)
-app.config["DEBUG"]=True
+#app.config["DEBUG"]=True
 
-#print(os.getcwd())
+print(os.getcwd())
 my_model= joblib.load("model/HousingPrices")
 
 @app.route('/', methods=['GET'])
@@ -22,9 +22,9 @@ def predict():
         view =  int(request.form.get("view"))
         feed = [[bedrooms, bathrooms, sqft_living, grade, view]]
         price = my_model.predict(feed)
-        return  render_template('/success.html',price="$"+ str(price[0]))
+        return  render_template('/index.html',message="Predicted Price: ${:,.2f}".format(price[0]))
     except Exception as e:
-        message = e
-        return render_template('/failure.html', message=e )
+        return render_template('/index.html', message="Error: "+str(e) )
  
-app.run()
+if __name__ == '__main__':
+   app.run()
