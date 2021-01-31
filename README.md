@@ -76,9 +76,8 @@ This scatter plot by far gives the best visual idea of the performance of the mo
 
 ### API Screenshots:
 
-![Screenshot1](/images/API_Screenshot1.png)
-![Screenshot2](/images/API_Screenshot2.png)
-![Screenshot3](/images/API_Screenshot3.png)
+![Screenshot1](/images/Screenshot1.png)
+![Screenshot2](/images/Screenshot2.png)
 
 
 
