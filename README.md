@@ -87,7 +87,7 @@ This scatter plot by far gives the best visual idea of the performance of the mo
 
 #### Instructions to run:
 
-##### Softare Prerequisites: Python, Flask
+##### Software Prerequisites: Python, Flask
 
 1) Clone this repo on to your computer.
 2) Navigate to the file "main.py" and run it with the command ```$python main.py```
